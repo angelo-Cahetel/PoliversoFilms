@@ -1,0 +1,1 @@
+var videos=document.querySelectorAll(".autoplay-video"),options={root:null,rootMargin:"0px",threshold:.5};function handleIntersection(o,e){o.forEach(function(o){o.isIntersecting?o.target.play():o.target.pause()})}videos.forEach(function(o){new IntersectionObserver(handleIntersection,options).observe(o)});
