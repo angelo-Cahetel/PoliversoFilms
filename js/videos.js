@@ -1,1 +1,1 @@
-var logo=document.querySelector(".logo-header"),menu=document.querySelector(".bg-menu"),video=document.querySelector(".img-header");window.addEventListener("load",function(){logo.play(),menu.play(),video.play()});
+var logo=document.querySelector(".logo-header"),menu=document.querySelector(".bg-menu"),video=document.querySelector(".img-header"),loading=document.getElementById("videoCarregamento");window.addEventListener("load",function(){logo.play(),menu.play(),video.play(),loading.play()});
